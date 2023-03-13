@@ -2,6 +2,7 @@
   "name": "houses",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://5aid-Castillo.github.io/HousesandApartments",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -12,6 +13,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -38,6 +41,7 @@
   "devDependencies": {
     "@headlessui/react": "^1.6.4",
     "autoprefixer": "^10.4.7",
+    "gh-pages": "^5.0.0",
     "postcss": "^8.4.14",
     "react-icons": "^4.4.0",
     "react-router-dom": "^6.9.0",
